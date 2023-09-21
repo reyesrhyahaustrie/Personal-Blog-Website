@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f9f9f9;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 70px;
+}
+
+.navbar .logo a {
+    font-weight: 900;
+    font-size: 2.2em;
+    padding: 20px;
+    color: #434343;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu input[type="radio"] {
+    display: none;
+}
+
+.menu label {
+    color: #a2a2a2;
+    text-decoration: none;
+    padding: 20px;
+    word-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.menu input[type="radio"]:checked+label {
+    color: #606060;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.menu li a {
+    color: #434343;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 18px;
+    word-spacing: 1px;
+    transition: 0s;
+    font-size: 16px;
+    width: 72.1389px;
+    height: 39.5556px;
+}
+
+.header {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+    width: 95%;
+    border-top: 1px solid #afafaf;
+    margin: 18px 0 0 0;
+}
+
+main {
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.creative-writing.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.creative-writing.blogs h2 {
+    margin-top: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 100;
+    color: #fc937e;
+}
+
+.creative-writing__image {
+    margin-top: 0%;
+}
+
+.creative-writing-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.creative-non-fiction.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.creative-non-fiction.blogs h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 100;
+    color: #fc937e;
+}
+
+.creative-non-fiction-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.creative-writing__image {
+    margin-top: 0%;
+}
+
+.creative-writing-photo,
+.creative-non-fiction-photo {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.creative-writing-photo img,
+.creative-non-fiction-photo img {
+    max-width: 100%;
+    height: auto;
+    text-decoration: none !important;
+}
+
+.creative-writing-photo a,
+.creative-non-fiction-photo a {
+    text-decoration: none !important;
+    color: #434343;
+}
+
+.creative-writing-photo p,
+.creative-non-fiction-photo p {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #434343;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    margin-left: 225px;
+    flex-wrap: wrap;
+}
+
+.social-icons img {
+    width: 51px;
+    height: 51px;
+    margin-right: 30px;
+}
+
+.contact-info {
+    margin-left: 20px;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.contact-row span {
+    font-size: 16px;
+    color: #434343;
+}
+
+.footer-right {
+    text-align: right;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.footer-right p {
+    color: #434343;
+    font-size: 18px;
+    margin-right: 250px;
+    font-weight: 200;
+}
